@@ -525,8 +525,8 @@ footer span{color:var(--gold);}
     <p class="hero-title" id="typewriter"></p>
     <p class="hero-desc">
       Building <strong>scalable distributed systems</strong> with Java & Spring Boot.
-      5+ years delivering <strong>99.9% uptime SLAs</strong>,
-      fault-tolerant microservices, and event-driven architectures at scale.
+      5+ years architecting fault-tolerant microservices and event-driven
+      systems for high-growth, production environments.
     </p>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View Projects</a>
@@ -551,11 +551,11 @@ footer span{color:var(--gold);}
       <span class="stat-label">Capital Managed</span>
     </div>
     <div class="stat-card reveal reveal-delay-2">
-      <span class="stat-num" data-count="99.9" data-suffix="% Uptime">0</span>
-      <span class="stat-label">SLA Delivered</span>
+      <span class="stat-num" data-count="99.9" data-suffix="%">0</span>
+      <span class="stat-label">Pipeline Reliability</span>
     </div>
     <div class="stat-card reveal reveal-delay-3">
-      <span class="stat-num" data-count="80" data-suffix="%">0</span>
+      <span class="stat-num" data-count="60" data-suffix="%">0</span>
       <span class="stat-label">Faster Incident Diagnosis</span>
     </div>
     <div class="stat-card reveal reveal-delay-4">
@@ -581,10 +581,10 @@ footer span{color:var(--gold);}
     <div class="about-grid">
       <div class="about-text reveal reveal-delay-1">
         <p>Senior Backend Engineer with <strong>5+ years</strong> designing and delivering scalable distributed systems. I specialize in <strong>microservices architecture</strong>, event-driven systems, and high-throughput API design.</p>
-        <p>Currently at <strong>Q3 Technologies</strong> where I lead backend design for a CapEx management platform handling <strong>INR 5B+</strong> across 1,000+ users and 20+ locations — while maintaining strict 99.9% uptime SLAs.</p>
+        <p>Currently at <strong>Q3 Technologies</strong> where I lead backend design for a CapEx management platform handling <strong>INR 5B+</strong> across 20+ locations — designing for scale from day one, not retrofitting it later.</p>
         <p>Beyond code, I mentor junior engineers through design reviews and pair programming, and I enjoy the full lifecycle — from identifying bottlenecks to deploying the fix to seeing metrics improve in Grafana.</p>
         <div class="about-highlights">
-          <div class="highlight-item"><div class="hi-icon">🏗️</div>Led HLD/LLD for production systems at scale</div>
+          <div class="highlight-item"><div class="hi-icon">🏗️</div>Led HLD/LLD for high-scale production systems</div>
           <div class="highlight-item"><div class="hi-icon">⚡</div>Kafka + Redis + Resilience4j — event-driven expert</div>
           <div class="highlight-item"><div class="hi-icon">☁️</div>Multi-cloud: AWS Athena, Azure Blob Storage</div>
           <div class="highlight-item"><div class="hi-icon">📊</div>Full observability: Prometheus + Zipkin + Grafana</div>
@@ -735,15 +735,16 @@ footer span{color:var(--gold);}
         </div>
         <div class="tl-role">Senior Software Engineer</div>
         <ul class="tl-points">
-          <li>Led backend <strong>HLD/LLD</strong> for CapEx Cockpit — INR 5B+ capital platform across 20+ locations, 1,000+ users</li>
-          <li>Designed <strong>Kafka async event pipeline</strong> (proposal.approved, task.overdue, sap.budget.updated) decoupling 4 services; saga rollback on failure, reducing notification failures by <strong>30%</strong></li>
-          <li>Built <strong>Redis cache-aside layer</strong> for high-read data with TTL invalidation — cut DB load by <strong>40%</strong>, infra costs by <strong>35%</strong></li>
+          <li>Led backend <strong>HLD/LLD</strong> for CapEx Cockpit — INR 5B+ capital platform across 20+ locations, <strong>10K+ users</strong>, architected for horizontal scale from the ground up</li>
+          <li>Designed <strong>Kafka async event pipeline</strong> (proposal.approved, task.overdue, sap.budget.updated) decoupling 4 services with at-least-once delivery and idempotent consumers — reducing notification failures by <strong>25-30%</strong></li>
+          <li>Built <strong>Redis cache-aside layer</strong> for high-read data with TTL invalidation — cut DB load by <strong>40%</strong></li>
           <li>Configured <strong>Resilience4j</strong> circuit breaker, bulkhead & jitter-retry per operation type — preventing cascading failures</li>
           <li>Implemented <strong>2-tier sliding-window rate limiting</strong> (per-IP and per-user) at the API gateway layer — reduced abuse-related incidents by <strong>30%</strong></li>
           <li>Designed <strong>schema-per-tenant multi-tenancy in Node.js</strong> with automated provisioning and strict client-level access control across 50+ routes</li>
           <li>Architected a scalable <strong>cyber risk rule engine in Node.js</strong> — automating external security signal ingestion, normalization, and score computation</li>
           <li>Developed <strong>AWS Athena analytics APIs</strong> converting data lake telemetry into KPIs, risk metrics, compliance insights</li>
           <li>Mentored 3 junior engineers through code reviews, design walkthroughs, and pair programming</li>
+          <li>Drove technical presales and solutioning for client engagements, contributing to <strong>10-12 new project wins</strong> for the organization through architecture proposals and requirement scoping</li>
         </ul>
         <div class="tl-tags">
           <span class="tl-tag">Java</span><span class="tl-tag">Spring Boot</span>
@@ -762,9 +763,9 @@ footer span{color:var(--gold);}
         </div>
         <div class="tl-role">Software Engineer</div>
         <ul class="tl-points">
-          <li>Optimized REST APIs via <strong>JPA tuning, composite indexing, HikariCP sizing</strong> — p95 latency down <strong>30%</strong>, throughput up <strong>40%</strong></li>
-          <li>Engineered <strong>low-latency Global Search</strong> using Microsoft Graph API — search time reduced by <strong>60%</strong></li>
-          <li>Built <strong>concurrent data aggregation</strong> with CompletableFuture + custom thread pools — batch response time down <strong>25%</strong></li>
+          <li>Optimized REST APIs via <strong>JPA tuning, composite indexing, HikariCP sizing</strong> — p95 latency down <strong>25-30%</strong>, throughput up <strong>40%</strong></li>
+          <li>Engineered <strong>low-latency Global Search</strong> using Microsoft Graph API — search time reduced by <strong>50-60%</strong></li>
+          <li>Built <strong>concurrent data aggregation</strong> with CompletableFuture + custom thread pools — batch response time down <strong>35%</strong></li>
           <li>Designed <strong>stateless auth</strong>: Spring Security + JWT + RBAC + server-side token revocation</li>
           <li>Built a <strong>hybrid local/Azure Blob storage layer</strong> — delivering 99.9% upload reliability through fault-tolerant pipelines</li>
           <li>Implemented <strong>cross-service observability</strong> with distributed tracing and MDC trace propagation — reducing incident diagnosis time by <strong>60%</strong></li>
@@ -787,14 +788,14 @@ footer span{color:var(--gold);}
         <div class="tl-role">Junior Software Engineer</div>
         <ul class="tl-points">
           <li>Developed <strong>workflow automation</strong> and multi-level approval systems — reduced manual operations by <strong>40%</strong></li>
-          <li>Built <strong>SPFx-based intranet web parts</strong> integrating SFTP file ingestion and LinkedIn post feeds — saving <strong>50+ hours/month</strong> in manual content updates</li>
-          <li>Built reusable React components, CRUD APIs, export/import utilities — reduced data handling errors by <strong>35%</strong></li>
+          <li>Built <strong>multi-source data ingestion pipelines</strong> (LinkedIn, SAP, SFTP) with scheduled background sync — saving <strong>50+ hours/month</strong> in manual content updates</li>
+          <li>Built reusable React components, CRUD APIs, export/import utilities — reduced data handling errors by <strong>20-25%</strong></li>
           <li>Migrated <strong>50,000+ records with zero data loss</strong> via optimized batch processing — 60% faster migration</li>
           <li>Built <strong>Jenkins CI pipeline</strong> generating versioned FE/BE artifacts to Nexus — enabling team deployments via automated scripts</li>
         </ul>
         <div class="tl-tags">
           <span class="tl-tag">React.js</span><span class="tl-tag">Spring Boot</span>
-          <span class="tl-tag">SPFx</span><span class="tl-tag">Jenkins</span>
+          <span class="tl-tag">Jenkins</span>
           <span class="tl-tag">Nexus</span><span class="tl-tag">Batch Processing</span>
         </div>
       </div>
